@@ -1,0 +1,26 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# Local, device-specific material that must never be published
+*.bin
+*.trx
+*.dat
+*.tar.gz
+*.whl
+*.ipk
+*.db
+.env
+*_backup*
+secrets/
+private/
+
+# WorkBuddy local metadata (not part of the distributable skill)
+_skillhub_meta.json
+_knot_meta.json
